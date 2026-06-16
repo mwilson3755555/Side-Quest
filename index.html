@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NightQuest – Side Quests for Your Night Out</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;700&display=swap" rel="stylesheet"/>
+  <nav>
+  <div class="logo">NIGHTQUEST</div>
+  <ul class="nav-links">
+    <li><a href="#" class="active">Quests</a></li>
+    <li><a href="#">Social</a></li>
+    <li><a href="#">Map</a></li>
+    <li><a href="#">Rewards</a></li>
+  </ul>
+  <div class="nav-right">
+    <div class="xp-badge">⚡ 2,340 XP</div>
+    <div class="avatar">JK</div>
+  </div>
+</nav>
+<div class="hero">
+  <div class="hero-eyebrow">
+    <span class="pulse"></span>
+    47 Quests Active Tonight
+  </div>
+  <h1>YOUR NIGHT,<br/><span>LEGENDARY</span></h1>
+  <p class="hero-sub">Side quests, challenges & achievements for your night out.</p>
+  <div class="hero-cta">
+    <button class="btn-primary" onclick="rollQuest()">🎲 Roll Random Quest</button>
+    <button class="btn-ghost">Invite Friends</button>
+  </div>
+</div>
+<div class="stats-bar">
+  <div class="stat">
+    <div class="stat-num">12,400</div>
+    <div class="stat-label">Players Tonight</div>
+  </div>
+  <div class="stat">
+    <div class="stat-num">3,891</div>
+    <div class="stat-label">Quests Completed</div>
+  </div>
+  <div class="stat">
+    <div class="stat-num">Lv.7</div>
+    <div class="stat-label">Your Level</div>
+  </div>
+  <div class="stat">
+    <div class="stat-num">2</div>
+    <div class="stat-label">Active Quests</div>
+  </div>
+</div>
+<div class="quest-card" onclick="acceptQuest(this, 'The Stranger\'s Toast')">
+  <div class="quest-top">
+    <div class="quest-icon">🥂</div>
+    <div class="quest-tags">
+      <span class="tag tag-diff-easy">Easy</span>
+      <span class="tag tag-type">Social</span>
+    </div>
+  </div>
+  <div class="quest-title">The Stranger's Toast</div>
+  <div class="quest-desc">Buy a drink for a stranger at the bar and make a toast with them.</div>
+  <div class="quest-footer">
+    <div class="quest-xp">⚡ +150 XP</div>
+    <button class="btn-accept">Accept Quest</button>
+  </div>
+</div>
